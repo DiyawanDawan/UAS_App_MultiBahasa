@@ -1,5 +1,7 @@
 # AppMultiLanguage
 App Multi Language
+# NAMA  : DIYAWAN
+# NIM   : 200602006
 
 
 ![detailApp (1)](https://user-images.githubusercontent.com/95010003/149442380-9843dfa6-eaf8-41cc-aceb-7b5a7de9209d.gif)
