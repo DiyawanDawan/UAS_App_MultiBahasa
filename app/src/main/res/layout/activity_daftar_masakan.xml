@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@drawable/bgmk"
+    tools:context=".DaftarMasakanActivity">
+    <TextView
+        android:id="@+id/text_title_daftar_masakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:background="#EB2B2929"
+        android:textSize="19sp"
+        android:text="@string/d_daftar_menu"/>
+    <ListView
+        android:divider="#00000000"
+        android:id="@+id/listview_daftar_hewan"
+        tools:listitem="@layout/row_daftar_masakan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

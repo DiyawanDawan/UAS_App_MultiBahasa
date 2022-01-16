@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bggg"
+    android:padding="14dp">
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#998F8989"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:elevation="10000dp"
+            app:cardElevation="1000dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageViewpp"
+                android:scaleType="fitXY"
+                android:src="@drawable/diyawanpp"
+                android:layout_width="match_parent"
+                android:layout_height="355dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:textSize="25dp"
+                android:padding="5dp"
+                android:textColor="@color/purple_500"
+                android:text="@string/b_hamzanwadi"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/purple_500"
+                android:text="@string/b_fakultas_teknik"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/purple_500"
+                android:text="@string/b_teknik_informatika"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/purple_500"
+                android:text="@string/b_diyawan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/purple_500"
+                android:text="Nim 200602006"/>
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

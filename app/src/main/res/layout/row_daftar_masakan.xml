@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:paddingBottom="12dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:elevation="10000dp"
+        app:cardElevation="10000dp"
+        app:cardBackgroundColor="#E2EAE2E1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/row_image_masakan"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/t_kofta" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/row_image_masakan"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+                android:scaleType="fitXY">
+                <TextView
+                    android:id="@+id/row_text_jenis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="12dp"
+                    android:text="Jenis"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/row_text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+

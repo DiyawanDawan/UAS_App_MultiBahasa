@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Masakan"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_marginBottom="24dp"/>
+        <ImageView
+            android:id="@+id/gambarMasakan"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/w_chiken_wern_blue"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/volow"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/chat"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/bagi"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txJenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/txName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama "
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/txBahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Bahan"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/txCaraMembuat"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Membuat"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>
